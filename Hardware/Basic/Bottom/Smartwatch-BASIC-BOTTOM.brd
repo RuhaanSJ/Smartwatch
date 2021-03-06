@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -831,7 +831,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="35.322" y="14.636" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R15" library="LinnesLab-Passives" package="R0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="220k" x="31.4358" y="18.7" smashed="yes" rot="R90" grouprefs="PPG">
-<attribute name="NAME" x="33.29" y="17.811" size="0.7112" layer="25" rot="R90"/>
+<attribute name="NAME" x="32.8836" y="17.8618" size="0.7112" layer="25" rot="R90"/>
 <attribute name="VALUE" x="33.3408" y="18.065" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R16" library="LinnesLab-Passives" package="R0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="" x="19.1064" y="29.6258" smashed="yes" grouprefs="PPG">
@@ -842,12 +842,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="20.9832" y="14.381" size="0.7112" layer="25" rot="R90"/>
 <attribute name="VALUE" x="31.3972" y="14.381" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R17" library="LinnesLab-Passives" package="R0402" package3d_urn="urn:adsk.eagle:package:15661898/2" value="10k" x="25.9494" y="21.7734" smashed="yes" rot="R90" grouprefs="PPG">
-<attribute name="NAME" x="25.3144" y="21.1384" size="0.7112" layer="25" rot="R90"/>
-<attribute name="VALUE" x="27.8544" y="21.1384" size="1.27" layer="27" rot="R90"/>
+<element name="R17" library="LinnesLab-Passives" package="R0402" package3d_urn="urn:adsk.eagle:package:15661898/2" value="10k" x="25.4922" y="21.8242" smashed="yes" rot="R90" grouprefs="PPG">
+<attribute name="NAME" x="26.7368" y="20.9606" size="0.7112" layer="25" rot="R90"/>
+<attribute name="VALUE" x="27.3972" y="21.1892" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R18" library="LinnesLab-Passives" package="R0402" package3d_urn="urn:adsk.eagle:package:15661898/2" value="10k" x="24.241" y="21.813" smashed="yes" rot="R270" grouprefs="PPG">
-<attribute name="NAME" x="25.0754" y="20.8628" size="0.7112" layer="25"/>
+<attribute name="NAME" x="23.6634" y="21.24" size="0.7112" layer="25" rot="R90"/>
 <attribute name="VALUE" x="22.336" y="22.448" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="Q1" library="LinnesLab-DiscreteSemi" package="SOT23-3" package3d_urn="urn:adsk.eagle:package:15662047/2" value="" x="19.019" y="26.8638" smashed="yes" rot="R180" grouprefs="PPG">
@@ -875,7 +875,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="28.1816" y="8.9154" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R21" library="LinnesLab-Passives" package="R0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="220k" x="31.496" y="15.4048" smashed="yes" rot="R90" grouprefs="PPG">
-<attribute name="NAME" x="29.845" y="16.1166" size="0.7112" layer="25" rot="R270"/>
+<attribute name="NAME" x="30.0228" y="16.0404" size="0.7112" layer="25" rot="R270"/>
 <attribute name="VALUE" x="33.401" y="16.7698" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R22" library="LinnesLab-Passives" package="R0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10M" x="28.7652" y="22.098" smashed="yes" grouprefs="PPG">
@@ -883,11 +883,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="28.9176" y="21.717" size="1.27" layer="27"/>
 </element>
 <element name="C19" library="LinnesLab-Passives" package="C0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="2.2n" x="28.943" y="24.6888" smashed="yes" rot="R180" grouprefs="PPG">
-<attribute name="NAME" x="31.4198" y="23.635" size="0.7112" layer="25" rot="R90"/>
+<attribute name="NAME" x="31.2674" y="23.8128" size="0.7112" layer="25" rot="R90"/>
 <attribute name="VALUE" x="29.578" y="26.5938" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R23" library="LinnesLab-Passives" package="R0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="1M" x="28.9436" y="26.8224" smashed="yes" rot="R180" grouprefs="PPG">
-<attribute name="NAME" x="31.2674" y="25.9966" size="0.7112" layer="25" rot="R90"/>
+<attribute name="NAME" x="29.7818" y="28.4988" size="0.7112" layer="25" rot="R180"/>
 <attribute name="VALUE" x="29.5786" y="28.7274" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="OP4" library="LinnesLab-AnalogIC" package="SOT23-5" value="" x="16.624" y="20.955" smashed="yes" grouprefs="PPG">
@@ -915,11 +915,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="25.4572" y="29.0574" size="0.7112" layer="27" rot="R180"/>
 </element>
 <element name="R3" library="LinnesLab-Passives" package="R0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k" x="32.9182" y="30.753" smashed="yes" grouprefs="RTC">
-<attribute name="NAME" x="32.2578" y="31.7182" size="0.7112" layer="25"/>
+<attribute name="NAME" x="32.9436" y="31.5404" size="0.7112" layer="25"/>
 <attribute name="VALUE" x="32.2832" y="28.848" size="0.7112" layer="27"/>
 </element>
 <element name="R4" library="LinnesLab-Passives" package="R0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k" x="32.9436" y="29.1528" smashed="yes" grouprefs="RTC">
-<attribute name="NAME" x="32.842" y="27.4002" size="0.7112" layer="25"/>
+<attribute name="NAME" x="33.0198" y="27.5272" size="0.7112" layer="25"/>
 <attribute name="VALUE" x="32.3086" y="27.2478" size="0.7112" layer="27"/>
 </element>
 <element name="XTAL2" library="LinnesLab-Clocks" package="2-SMD.NOLEAD.2.0MMTO1.2MM" package3d_urn="urn:adsk.eagle:package:18579459/2" value="32.7680kHz" x="23.2728" y="32.461" smashed="yes" rot="R90" grouprefs="RTC">
@@ -934,7 +934,7 @@ design rules under a new name.</description>
 <attribute name="I2C_ADDRESS" value="0x68h" x="27.9464" y="31.2418" size="1.778" layer="27" display="off"/>
 <attribute name="MFN" value="PCF8523T/1,118" x="27.9464" y="31.2418" size="1.778" layer="27" display="off"/>
 <attribute name="MFN_MANUFACTURER" value="NXP USA Inc." x="27.9464" y="31.2418" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="27.6162" y="30.3782" size="0.7112" layer="25"/>
+<attribute name="NAME" x="27.2098" y="33.8326" size="0.7112" layer="25"/>
 <attribute name="VALUE" x="26.0414" y="27.6858" size="0.7112" layer="27"/>
 </element>
 <element name="J1" library="LinnesLab-Connectors" package="1X07" value="" x="5" y="33" smashed="yes">
@@ -1265,8 +1265,8 @@ design rules under a new name.</description>
 <contactref element="R18" pad="2"/>
 <wire x1="24.2852" y1="18.886" x2="24.241" y2="18.9302" width="0.1524" layer="1"/>
 <wire x1="24.241" y1="18.9302" x2="24.241" y2="21.163" width="0.1524" layer="1"/>
-<wire x1="24.2852" y1="18.886" x2="24.2852" y2="19.4592" width="0.1524" layer="1"/>
-<wire x1="24.2852" y1="19.4592" x2="25.9494" y2="21.1234" width="0.1524" layer="1"/>
+<wire x1="24.2852" y1="18.886" x2="24.2852" y2="19.9672" width="0.1524" layer="1"/>
+<wire x1="24.2852" y1="19.9672" x2="25.4922" y2="21.1742" width="0.1524" layer="1"/>
 </signal>
 <signal name="G.W2">
 <contactref element="U1" pad="15"/>
