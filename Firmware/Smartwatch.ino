@@ -1,4 +1,4 @@
-#include <Joystick.h>
+#include <Smartwatch.h>
 
 void setup() {
   // put your setup code here, to run once:
