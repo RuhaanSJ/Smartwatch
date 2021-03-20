@@ -4767,7 +4767,7 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf&lt;/il&gt;
 <part name="SUPPLY16" library="LinnesLab-Symbols" deviceset="VIN" device=""/>
 <part name="SW6" library="LinnesLab-Switches" deviceset="SWITCH.MOM" device=""/>
 <part name="SW7" library="LinnesLab-Switches" deviceset="SWITCH.MOM" device=""/>
-<part name="J1" library="LinnesLab-Connectors" deviceset="CONN_07" device=""/>
+<part name="J1" library="LinnesLab-Connectors" deviceset="CONN_07" device="-1.27MM"/>
 <part name="R10" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="27"/>
 <part name="R16" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="27"/>
 <part name="SUPPLY17" library="LinnesLab-Symbols" deviceset="VUSB" device=""/>
