@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -6854,9 +6854,9 @@ A light-sensitive transistor.</description>
 <part name="GND19" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND20" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="C1" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669414/2" override_package_urn="urn:adsk.eagle:footprint:27669434/1" value="1u"/>
-<part name="C3" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669528/2" override_package_urn="urn:adsk.eagle:footprint:27669529/1"/>
-<part name="C4" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669530/2" override_package_urn="urn:adsk.eagle:footprint:27669532/1"/>
-<part name="C6" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="300p"/>
+<part name="C3" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669528/2" override_package_urn="urn:adsk.eagle:footprint:27669529/1" value="12 pF"/>
+<part name="C4" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669530/2" override_package_urn="urn:adsk.eagle:footprint:27669532/1" value="12 pF"/>
+<part name="C6" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27725540/2" override_package_urn="urn:adsk.eagle:footprint:27725541/1" value="300p"/>
 <part name="C5" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669533/2" override_package_urn="urn:adsk.eagle:footprint:27669534/1" value="300p"/>
 <part name="C2" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0805" override_package3d_urn="urn:adsk.eagle:package:27670968/2" override_package_urn="urn:adsk.eagle:footprint:27670970/1" value="10u"/>
 <part name="L1" library="LinnesLab-Passives" deviceset="INDUCTOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669957/2" override_package_urn="urn:adsk.eagle:footprint:27669958/1" value="10u"/>
@@ -6870,25 +6870,25 @@ A light-sensitive transistor.</description>
 <part name="R4" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27670009/2" override_package_urn="urn:adsk.eagle:footprint:27670010/1" value="1k"/>
 <part name="XTAL1" library="LinnesLab-Clocks" deviceset="CRYSTAL" device="ECS-.327-12.5-12-C-TR" package3d_urn="urn:adsk.eagle:package:18579459/2" value="32.768kHz"/>
 <part name="R7" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27670018/2" override_package_urn="urn:adsk.eagle:footprint:27670019/1" value="10k"/>
-<part name="C13" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="100n"/>
-<part name="D1" library="LinnesLab-DiscreteSemi" deviceset="SCHOTTKY" device="-USC"/>
+<part name="C13" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27725575/2" override_package_urn="urn:adsk.eagle:footprint:27725576/1" value="100n"/>
+<part name="D1" library="LinnesLab-DiscreteSemi" deviceset="SCHOTTKY" device="-USC" override_package3d_urn="urn:adsk.eagle:package:27725549/2" override_package_urn="urn:adsk.eagle:footprint:27725550/1"/>
 <part name="SUPPLY4" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="GND28" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="GND29" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="DEBUG1" library="LinnesLab-Connectors" deviceset="CORTEX_DEBUG" device="_PTH" override_package3d_urn="urn:adsk.eagle:package:18579095/2" override_package_urn="urn:adsk.eagle:footprint:18579096/1"/>
-<part name="SW1" library="LinnesLab-Switches" deviceset="SPST-PTS830GG140-COPY" device=".1-3" package3d_urn="urn:adsk.eagle:package:18580190/2"/>
+<part name="DEBUG1" library="LinnesLab-Connectors" deviceset="CORTEX_DEBUG" device="_PTH" override_package3d_urn="urn:adsk.eagle:package:27725440/2" override_package_urn="urn:adsk.eagle:footprint:27725442/1"/>
+<part name="SW1" library="LinnesLab-Switches" deviceset="SPST-PTS830GG140-COPY" device=".1-3" package3d_urn="urn:adsk.eagle:package:18580190/2" override_package3d_urn="urn:adsk.eagle:package:27725742/2" override_package_urn="urn:adsk.eagle:footprint:27725743/1"/>
 <part name="GND30" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="SW4" library="LinnesLab-Switches" deviceset="SPST-PTS830GG140-COPY" device=".1-3" package3d_urn="urn:adsk.eagle:package:18580190/2"/>
+<part name="SW2" library="LinnesLab-Switches" deviceset="SPST-PTS830GG140-COPY" device=".1-3" package3d_urn="urn:adsk.eagle:package:18580190/2" override_package3d_urn="urn:adsk.eagle:package:27725693/2" override_package_urn="urn:adsk.eagle:footprint:27725694/1"/>
 <part name="U1" library="LinnesLab-Microcontrollers" deviceset="NRF52832_MODULE_MDBT42" device="" override_package3d_urn="urn:adsk.eagle:package:18593121/2" override_package_urn="urn:adsk.eagle:footprint:18593122/1">
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
-<part name="LED1" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2" value="RED"/>
-<part name="LED2" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2" value="BLUE"/>
+<part name="LED1" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2" override_package3d_urn="urn:adsk.eagle:package:27725520/2" override_package_urn="urn:adsk.eagle:footprint:27725521/1" value="RED"/>
+<part name="LED2" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2" override_package3d_urn="urn:adsk.eagle:package:27725485/2" override_package_urn="urn:adsk.eagle:footprint:27725486/1" value="BLUE"/>
 <part name="GND7" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="C10" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0402" override_package3d_urn="urn:adsk.eagle:package:27669273/2" override_package_urn="urn:adsk.eagle:footprint:27669274/1" value="2.2uF"/>
 <part name="C8" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0402" override_package3d_urn="urn:adsk.eagle:package:27669276/2" override_package_urn="urn:adsk.eagle:footprint:27669277/1" value="2.2uF"/>
-<part name="C7" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="10uF"/>
+<part name="C7" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27725581/2" override_package_urn="urn:adsk.eagle:footprint:27725582/1" value="10uF"/>
 <part name="C12" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0402" override_package3d_urn="urn:adsk.eagle:package:27669261/2" override_package_urn="urn:adsk.eagle:footprint:27669262/1" value="2.2uF"/>
 <part name="C9" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0402" override_package3d_urn="urn:adsk.eagle:package:27669278/2" override_package_urn="urn:adsk.eagle:footprint:27669279/1" value="2.2uF"/>
 <part name="C11" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0402" override_package3d_urn="urn:adsk.eagle:package:27669271/2" override_package_urn="urn:adsk.eagle:footprint:27669272/1" value="2.2uF"/>
@@ -6901,9 +6901,9 @@ A light-sensitive transistor.</description>
 <part name="SUPPLY2" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="R5" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27670011/2" override_package_urn="urn:adsk.eagle:footprint:27670012/1" value="10k"/>
 <part name="R6" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27670015/2" override_package_urn="urn:adsk.eagle:footprint:27670016/1" value="390k"/>
-<part name="D2" library="LinnesLab-DiscreteSemi" deviceset="SCHOTTKY" device="-USC"/>
-<part name="D3" library="LinnesLab-DiscreteSemi" deviceset="SCHOTTKY" device="-USC"/>
-<part name="USB1" library="LinnesLab-Connectors" deviceset="USB.MICRO" device="-BIGGERPADS"/>
+<part name="D2" library="LinnesLab-DiscreteSemi" deviceset="SCHOTTKY" device="-USC" override_package3d_urn="urn:adsk.eagle:package:27725565/2" override_package_urn="urn:adsk.eagle:footprint:27725566/1"/>
+<part name="D3" library="LinnesLab-DiscreteSemi" deviceset="SCHOTTKY" device="-USC" override_package3d_urn="urn:adsk.eagle:package:27725568/2" override_package_urn="urn:adsk.eagle:footprint:27725569/1"/>
+<part name="USB1" library="LinnesLab-Connectors" deviceset="USB.MICRO" device="-BIGGERPADS" override_package3d_urn="urn:adsk.eagle:package:27725404/2" override_package_urn="urn:adsk.eagle:footprint:27725405/1"/>
 <part name="J2" library="LinnesLab-Connectors" deviceset="CONN_02" device=""/>
 <part name="GND39" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND40" library="LinnesLab-Symbols" deviceset="GND" device=""/>
@@ -6921,8 +6921,8 @@ A light-sensitive transistor.</description>
 <part name="GND22" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND27" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="JP1" library="LinnesLab-Switches" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
-<part name="LED3" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2" value="RED"/>
-<part name="LED4" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2" value="YELLOW"/>
+<part name="LED3" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2" override_package3d_urn="urn:adsk.eagle:package:27725529/2" override_package_urn="urn:adsk.eagle:footprint:27725530/1" value="RED"/>
+<part name="LED4" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2" override_package3d_urn="urn:adsk.eagle:package:27725536/2" override_package_urn="urn:adsk.eagle:footprint:27725537/1" value="YELLOW"/>
 <part name="R15" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27670042/2" override_package_urn="urn:adsk.eagle:footprint:27670043/1" value="1k"/>
 <part name="R16" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27670046/2" override_package_urn="urn:adsk.eagle:footprint:27670048/1" value="1k"/>
 <part name="SUPPLY18" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
@@ -6960,36 +6960,38 @@ A light-sensitive transistor.</description>
 <part name="GND42" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="R12" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27670029/2" override_package_urn="urn:adsk.eagle:footprint:27670030/1" value="100k"/>
 <part name="GND43" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="U5" library="LinnesLab-Sensors" deviceset="PHOTOTRANSISTOR" device="" package3d_urn="urn:adsk.eagle:package:17881375/3"/>
-<part name="R18" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27670049/2" override_package_urn="urn:adsk.eagle:footprint:27670050/1" value="10k"/>
-<part name="C22" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669811/2" override_package_urn="urn:adsk.eagle:footprint:27669812/1" value="2.2u"/>
+<part name="U4" library="LinnesLab-Sensors" deviceset="PHOTOTRANSISTOR" device="" package3d_urn="urn:adsk.eagle:package:17881375/3"/>
+<part name="R17" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27670049/2" override_package_urn="urn:adsk.eagle:footprint:27670050/1" value="10k"/>
+<part name="C21" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669811/2" override_package_urn="urn:adsk.eagle:footprint:27669812/1" value="2.2u"/>
 <part name="GND3" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="J3" library="LinnesLab-Connectors" deviceset="CONN_04" device="1.27MM" override_package3d_urn="urn:adsk.eagle:package:27669941/3" override_package_urn="urn:adsk.eagle:footprint:27669942/1"/>
-<part name="U6" library="LinnesLab-Sensors" deviceset="MCP9808" device="-MSOP8"/>
-<part name="R26" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27670067/2" override_package_urn="urn:adsk.eagle:footprint:27670068/1" value="10k"/>
-<part name="C24" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669815/2" override_package_urn="urn:adsk.eagle:footprint:27669816/1" value="100n"/>
+<part name="J3" library="LinnesLab-Connectors" deviceset="CONN_04" device="1.27MM" override_package3d_urn="urn:adsk.eagle:package:27725590/2" override_package_urn="urn:adsk.eagle:footprint:27725591/1"/>
+<part name="U5" library="LinnesLab-Sensors" deviceset="MCP9808" device="-MSOP8" override_package3d_urn="urn:adsk.eagle:package:27725420/2" override_package_urn="urn:adsk.eagle:footprint:27725421/1">
+<attribute name="SPICEPREFIX" value="X"/>
+</part>
+<part name="R18" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27670067/2" override_package_urn="urn:adsk.eagle:footprint:27670068/1" value="10k"/>
+<part name="C22" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669815/2" override_package_urn="urn:adsk.eagle:footprint:27669816/1" value="100n"/>
 <part name="SUPPLY26" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="GND45" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY27" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="GND46" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND47" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY30" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="Q3" library="LinnesLab-DiscreteSemi" deviceset="NFET" device="-AO3404A"/>
+<part name="Q1" library="LinnesLab-DiscreteSemi" deviceset="NFET" device="-AO3404A" override_package3d_urn="urn:adsk.eagle:package:27725657/2" override_package_urn="urn:adsk.eagle:footprint:27725664/1"/>
 <part name="SUPPLY24" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="GND49" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="R19" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27670052/2" override_package_urn="urn:adsk.eagle:footprint:27670053/1" value="10k"/>
 <part name="GND50" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="D5" library="LinnesLab-DiscreteSemi" deviceset="SCHOTTKY" device="-USC"/>
-<part name="C27" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669817/2" override_package_urn="urn:adsk.eagle:footprint:27669818/1" value="10p"/>
+<part name="D4" library="LinnesLab-DiscreteSemi" deviceset="SCHOTTKY" device="-USC" override_package3d_urn="urn:adsk.eagle:package:27725570/2" override_package_urn="urn:adsk.eagle:footprint:27725571/1"/>
+<part name="C23" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669817/2" override_package_urn="urn:adsk.eagle:footprint:27669818/1" value="10p"/>
 <part name="SUPPLY25" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="C28" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669819/2" override_package_urn="urn:adsk.eagle:footprint:27669820/1" value="1u"/>
+<part name="C24" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669819/2" override_package_urn="urn:adsk.eagle:footprint:27669820/1" value="1u"/>
 <part name="GND51" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="M1" library="LinnesLab-Electromechanical" deviceset="VIB.MOTOR.C0720B015F" device=""/>
 <part name="SUPPLY28" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="C29" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669822/2" override_package_urn="urn:adsk.eagle:footprint:27669823/1" value="100n"/>
+<part name="C25" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669822/2" override_package_urn="urn:adsk.eagle:footprint:27669823/1" value="100n"/>
 <part name="GND52" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="J4" library="LinnesLab-Connectors" deviceset="CONN_03" device=".50MIL"/>
+<part name="J4" library="LinnesLab-Connectors" deviceset="CONN_03" device=".50MIL" override_package3d_urn="urn:adsk.eagle:package:27725632/2" override_package_urn="urn:adsk.eagle:footprint:27725633/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -7269,7 +7271,7 @@ Sensor</text>
 <instance part="GND30" gate="G$1" x="43.18" y="45.72" smashed="yes">
 <attribute name="VALUE" x="43.18" y="45.466" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SW4" gate="G$1" x="238.76" y="48.26" smashed="yes">
+<instance part="SW2" gate="G$1" x="238.76" y="48.26" smashed="yes">
 <attribute name="NAME" x="236.22" y="45.72" size="1.27" layer="95"/>
 <attribute name="VALUE" x="236.22" y="43.18" size="1.27" layer="96"/>
 </instance>
@@ -7548,15 +7550,15 @@ Sensor</text>
 <instance part="GND43" gate="G$1" x="345.44" y="-27.94" smashed="yes">
 <attribute name="VALUE" x="345.44" y="-28.194" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U5" gate="G$1" x="55.88" y="-134.62" smashed="yes">
+<instance part="U4" gate="G$1" x="55.88" y="-134.62" smashed="yes">
 <attribute name="NAME" x="58.42" y="-134.62" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="58.42" y="-134.874" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="R18" gate="G$1" x="58.42" y="-149.86" smashed="yes" rot="R90">
+<instance part="R17" gate="G$1" x="58.42" y="-149.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="56.9214" y="-153.67" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="61.722" y="-153.67" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C22" gate="G$1" x="66.04" y="-152.4" smashed="yes">
+<instance part="C21" gate="G$1" x="66.04" y="-152.4" smashed="yes">
 <attribute name="NAME" x="67.564" y="-149.479" size="1.778" layer="95"/>
 <attribute name="VALUE" x="67.564" y="-154.559" size="1.778" layer="96"/>
 </instance>
@@ -7570,15 +7572,15 @@ Sensor</text>
 <attribute name="VALUE" x="30.226" y="-71.12" size="1.778" layer="96" font="vector" rot="R90"/>
 <attribute name="NAME" x="19.812" y="-71.12" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
-<instance part="U6" gate="G$1" x="78.74" y="-43.18" smashed="yes">
+<instance part="U5" gate="G$1" x="78.74" y="-43.18" smashed="yes">
 <attribute name="NAME" x="71.12" y="-38.1" size="1.778" layer="95"/>
 <attribute name="VALUE" x="71.12" y="-53.34" size="1.778" layer="96"/>
 </instance>
-<instance part="R26" gate="G$1" x="53.34" y="-48.26" smashed="yes" rot="R90">
+<instance part="R18" gate="G$1" x="53.34" y="-48.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.8414" y="-52.07" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="56.642" y="-52.07" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C24" gate="G$1" x="99.06" y="-45.72" smashed="yes">
+<instance part="C22" gate="G$1" x="99.06" y="-45.72" smashed="yes">
 <attribute name="NAME" x="100.584" y="-42.799" size="1.778" layer="95"/>
 <attribute name="VALUE" x="100.584" y="-47.879" size="1.778" layer="96"/>
 </instance>
@@ -7600,7 +7602,7 @@ Sensor</text>
 <instance part="SUPPLY30" gate="G$1" x="53.34" y="-40.64" smashed="yes">
 <attribute name="VALUE" x="53.34" y="-37.846" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="Q3" gate="NMOS" x="-5.08" y="-147.32" smashed="yes">
+<instance part="Q1" gate="NMOS" x="-5.08" y="-147.32" smashed="yes">
 <attribute name="NAME" x="0" y="-147.32" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="0" y="-149.86" size="1.778" layer="96" font="vector"/>
 </instance>
@@ -7617,18 +7619,18 @@ Sensor</text>
 <instance part="GND50" gate="G$1" x="-12.7" y="-167.64" smashed="yes">
 <attribute name="VALUE" x="-12.7" y="-167.894" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="D5" gate="G$1" x="-7.62" y="-132.08" smashed="yes" rot="R90">
+<instance part="D4" gate="G$1" x="-7.62" y="-132.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="-9.652" y="-134.62" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="-5.588" y="-134.62" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="C27" gate="G$1" x="-15.24" y="-132.08" smashed="yes" rot="R180">
+<instance part="C23" gate="G$1" x="-15.24" y="-132.08" smashed="yes" rot="R180">
 <attribute name="NAME" x="-16.764" y="-135.001" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-16.764" y="-129.921" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY25" gate="G$1" x="10.16" y="-129.54" smashed="yes">
 <attribute name="VALUE" x="10.16" y="-126.746" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="C28" gate="G$1" x="10.16" y="-137.16" smashed="yes">
+<instance part="C24" gate="G$1" x="10.16" y="-137.16" smashed="yes">
 <attribute name="NAME" x="11.684" y="-134.239" size="1.778" layer="95"/>
 <attribute name="VALUE" x="11.684" y="-139.319" size="1.778" layer="96"/>
 </instance>
@@ -7642,7 +7644,7 @@ Sensor</text>
 <instance part="SUPPLY28" gate="G$1" x="20.32" y="-129.54" smashed="yes">
 <attribute name="VALUE" x="20.32" y="-126.746" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="C29" gate="G$1" x="20.32" y="-137.16" smashed="yes">
+<instance part="C25" gate="G$1" x="20.32" y="-137.16" smashed="yes">
 <attribute name="NAME" x="21.844" y="-134.239" size="1.778" layer="95"/>
 <attribute name="VALUE" x="21.844" y="-139.319" size="1.778" layer="96"/>
 </instance>
@@ -7745,7 +7747,7 @@ Sensor</text>
 <wire x1="243.84" y1="48.26" x2="246.38" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="48.26" x2="246.38" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="GND28" gate="G$1" pin="GND"/>
-<pinref part="SW4" gate="G$1" pin="B"/>
+<pinref part="SW2" gate="G$1" pin="B"/>
 </segment>
 <segment>
 <wire x1="220.98" y1="96.52" x2="218.44" y2="96.52" width="0.1524" layer="91"/>
@@ -7932,42 +7934,42 @@ Sensor</text>
 <wire x1="345.44" y1="-25.4" x2="345.44" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C22" gate="G$1" pin="2"/>
+<pinref part="C21" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="-154.94" x2="66.04" y2="-157.48" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="-157.48" x2="58.42" y2="-157.48" width="0.1524" layer="91"/>
-<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="-157.48" x2="58.42" y2="-154.94" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="G$1" pin="GND"/>
 <wire x1="58.42" y1="-160.02" x2="58.42" y2="-157.48" width="0.1524" layer="91"/>
 <junction x="58.42" y="-157.48"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="A2"/>
+<pinref part="U5" gate="G$1" pin="A2"/>
 <wire x1="88.9" y1="-48.26" x2="91.44" y2="-48.26" width="0.1524" layer="91"/>
 <pinref part="GND45" gate="G$1" pin="GND"/>
 <wire x1="91.44" y1="-48.26" x2="91.44" y2="-53.34" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="A0"/>
+<pinref part="U5" gate="G$1" pin="A0"/>
 <wire x1="88.9" y1="-43.18" x2="91.44" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="-43.18" x2="91.44" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="91.44" y="-48.26"/>
-<pinref part="U6" gate="G$1" pin="A1"/>
+<pinref part="U5" gate="G$1" pin="A1"/>
 <wire x1="91.44" y1="-45.72" x2="91.44" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="-45.72" x2="91.44" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="91.44" y="-45.72"/>
 </segment>
 <segment>
-<pinref part="C24" gate="G$1" pin="2"/>
+<pinref part="C22" gate="G$1" pin="2"/>
 <pinref part="GND46" gate="G$1" pin="GND"/>
 <wire x1="99.06" y1="-50.8" x2="99.06" y2="-48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="-50.8" x2="66.04" y2="-48.26" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="GND"/>
+<pinref part="U5" gate="G$1" pin="GND"/>
 <wire x1="66.04" y1="-48.26" x2="68.58" y2="-48.26" width="0.1524" layer="91"/>
 <pinref part="GND47" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q3" gate="NMOS" pin="S"/>
+<pinref part="Q1" gate="NMOS" pin="S"/>
 <pinref part="GND49" gate="G$1" pin="GND"/>
 <wire x1="-2.54" y1="-154.94" x2="-2.54" y2="-152.4" width="0.1524" layer="91"/>
 </segment>
@@ -7977,12 +7979,12 @@ Sensor</text>
 <wire x1="-12.7" y1="-165.1" x2="-12.7" y2="-162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C28" gate="G$1" pin="2"/>
+<pinref part="C24" gate="G$1" pin="2"/>
 <pinref part="GND51" gate="G$1" pin="GND"/>
 <wire x1="10.16" y1="-142.24" x2="10.16" y2="-139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C29" gate="G$1" pin="2"/>
+<pinref part="C25" gate="G$1" pin="2"/>
 <pinref part="GND52" gate="G$1" pin="GND"/>
 <wire x1="20.32" y1="-142.24" x2="20.32" y2="-139.7" width="0.1524" layer="91"/>
 </segment>
@@ -8051,7 +8053,7 @@ Sensor</text>
 <segment>
 <wire x1="231.14" y1="48.26" x2="233.68" y2="48.26" width="0.1524" layer="91"/>
 <label x="231.14" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="SW4" gate="G$1" pin="A"/>
+<pinref part="SW2" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <wire x1="256.54" y1="96.52" x2="254" y2="96.52" width="0.1524" layer="91"/>
@@ -8200,35 +8202,35 @@ Sensor</text>
 <wire x1="345.44" y1="-10.16" x2="345.44" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="C"/>
+<pinref part="U4" gate="G$1" pin="C"/>
 <wire x1="58.42" y1="-129.54" x2="58.42" y2="-127" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="VDD"/>
+<pinref part="U5" gate="G$1" pin="VDD"/>
 <wire x1="88.9" y1="-40.64" x2="91.44" y2="-40.64" width="0.1524" layer="91"/>
 <pinref part="SUPPLY26" gate="G$1" pin="3.3V"/>
 <wire x1="91.44" y1="-40.64" x2="91.44" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C24" gate="G$1" pin="1"/>
+<pinref part="C22" gate="G$1" pin="1"/>
 <pinref part="SUPPLY27" gate="G$1" pin="3.3V"/>
 <wire x1="99.06" y1="-38.1" x2="99.06" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R26" gate="G$1" pin="2"/>
+<pinref part="R18" gate="G$1" pin="2"/>
 <pinref part="SUPPLY30" gate="G$1" pin="3.3V"/>
 <wire x1="53.34" y1="-40.64" x2="53.34" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY24" gate="G$1" pin="3.3V"/>
 <wire x1="-2.54" y1="-121.92" x2="-2.54" y2="-124.46" width="0.1524" layer="91"/>
-<pinref part="D5" gate="G$1" pin="C"/>
+<pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="-2.54" y1="-124.46" x2="-2.54" y2="-127" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="-129.54" x2="-7.62" y2="-124.46" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="-124.46" x2="-2.54" y2="-124.46" width="0.1524" layer="91"/>
 <junction x="-2.54" y="-124.46"/>
-<pinref part="C27" gate="G$1" pin="2"/>
+<pinref part="C23" gate="G$1" pin="2"/>
 <wire x1="-15.24" y1="-129.54" x2="-15.24" y2="-124.46" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="-124.46" x2="-7.62" y2="-124.46" width="0.1524" layer="91"/>
 <junction x="-7.62" y="-124.46"/>
@@ -8236,12 +8238,12 @@ Sensor</text>
 </segment>
 <segment>
 <pinref part="SUPPLY25" gate="G$1" pin="3.3V"/>
-<pinref part="C28" gate="G$1" pin="1"/>
+<pinref part="C24" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="-132.08" x2="10.16" y2="-129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY28" gate="G$1" pin="3.3V"/>
-<pinref part="C29" gate="G$1" pin="1"/>
+<pinref part="C25" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="-132.08" x2="20.32" y2="-129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -8268,7 +8270,7 @@ Sensor</text>
 <label x="5.08" y="-58.42" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="SDA"/>
+<pinref part="U5" gate="G$1" pin="SDA"/>
 <wire x1="68.58" y1="-40.64" x2="66.04" y2="-40.64" width="0.1524" layer="91"/>
 <label x="66.04" y="-40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -8296,7 +8298,7 @@ Sensor</text>
 <label x="2.54" y="-58.42" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="SCL"/>
+<pinref part="U5" gate="G$1" pin="SCL"/>
 <wire x1="66.04" y1="-43.18" x2="68.58" y2="-43.18" width="0.1524" layer="91"/>
 <label x="66.04" y="-43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -8711,7 +8713,7 @@ Sensor</text>
 <label x="86.36" y="63.5" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="Q3" gate="NMOS" pin="G"/>
+<pinref part="Q1" gate="NMOS" pin="G"/>
 <wire x1="-10.16" y1="-149.86" x2="-12.7" y2="-149.86" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="-12.7" y1="-149.86" x2="-12.7" y2="-152.4" width="0.1524" layer="91"/>
@@ -8751,10 +8753,10 @@ Sensor</text>
 <label x="27.94" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="E"/>
-<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="U4" gate="G$1" pin="E"/>
+<pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="-144.78" x2="58.42" y2="-142.24" width="0.1524" layer="91"/>
-<pinref part="C22" gate="G$1" pin="1"/>
+<pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="-142.24" x2="58.42" y2="-139.7" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="-147.32" x2="66.04" y2="-142.24" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="-142.24" x2="58.42" y2="-142.24" width="0.1524" layer="91"/>
@@ -8796,26 +8798,26 @@ Sensor</text>
 </net>
 <net name="ALERT" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="ALERT"/>
+<pinref part="U5" gate="G$1" pin="ALERT"/>
 <wire x1="66.04" y1="-45.72" x2="68.58" y2="-45.72" width="0.1524" layer="91"/>
 <label x="66.04" y="-45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R26" gate="G$1" pin="1"/>
+<pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="-55.88" x2="53.34" y2="-53.34" width="0.1524" layer="91"/>
 <label x="53.34" y="-55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="Q3" gate="NMOS" pin="D"/>
+<pinref part="Q1" gate="NMOS" pin="D"/>
 <wire x1="-2.54" y1="-137.16" x2="-2.54" y2="-139.7" width="0.1524" layer="91"/>
-<pinref part="D5" gate="G$1" pin="A"/>
+<pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="-2.54" y1="-139.7" x2="-2.54" y2="-142.24" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="-134.62" x2="-7.62" y2="-139.7" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="-139.7" x2="-2.54" y2="-139.7" width="0.1524" layer="91"/>
 <junction x="-2.54" y="-139.7"/>
-<pinref part="C27" gate="G$1" pin="1"/>
+<pinref part="C23" gate="G$1" pin="1"/>
 <wire x1="-15.24" y1="-137.16" x2="-15.24" y2="-139.7" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="-139.7" x2="-7.62" y2="-139.7" width="0.1524" layer="91"/>
 <junction x="-7.62" y="-139.7"/>
