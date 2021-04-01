@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -2460,19 +2460,19 @@ Silk outline shows header location.
 <part name="SUPPLY5" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="GND1" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND3" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="C1" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
-<part name="C2" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="1u"/>
-<part name="R2" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="3.3k"/>
+<part name="C1" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" override_package3d_urn="urn:adsk.eagle:package:27726109/2" override_package_urn="urn:adsk.eagle:footprint:27726110/1" value="100n"/>
+<part name="C2" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" override_package3d_urn="urn:adsk.eagle:package:27726113/2" override_package_urn="urn:adsk.eagle:footprint:27726114/1" value="1u"/>
+<part name="R2" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" override_package3d_urn="urn:adsk.eagle:package:27726107/2" override_package_urn="urn:adsk.eagle:footprint:27726108/1" value="3.3k"/>
 <part name="GND6" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND8" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="D1" library="LinnesLab-DiscreteSemi" deviceset="SCHOTTKY" device="-USC" package3d_urn="urn:adsk.eagle:package:15664784/2"/>
-<part name="R1" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="1k"/>
-<part name="LED1" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2"/>
+<part name="D1" library="LinnesLab-DiscreteSemi" deviceset="SCHOTTKY" device="-USC" package3d_urn="urn:adsk.eagle:package:15664784/2" override_package3d_urn="urn:adsk.eagle:package:27726117/2" override_package_urn="urn:adsk.eagle:footprint:27726118/1"/>
+<part name="R1" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" override_package3d_urn="urn:adsk.eagle:package:27726104/2" override_package_urn="urn:adsk.eagle:footprint:27726106/1" value="1k"/>
+<part name="LED1" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2" override_package3d_urn="urn:adsk.eagle:package:27726096/2" override_package_urn="urn:adsk.eagle:footprint:27726097/1"/>
 <part name="GND10" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="BT1" library="LinnesLab-Batteries" deviceset="ML414H_IV01E_BATTERY" device=""/>
-<part name="U1" library="LinnesLab-Sensors" deviceset="UBLOX_SAM_M8Q-0-10" device=""/>
+<part name="U1" library="LinnesLab-Sensors" deviceset="UBLOX_SAM_M8Q-0-10" device="" override_package3d_urn="urn:adsk.eagle:package:27728856/3" override_package_urn="urn:adsk.eagle:footprint:27728857/1"/>
 <part name="J1" library="LinnesLab-Connectors" deviceset="CONN_04" device="1.27MM"/>
 </parts>
 <sheets>
@@ -2728,6 +2728,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>

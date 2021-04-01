@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -6858,8 +6858,8 @@ A light-sensitive transistor.</description>
 <part name="C4" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669530/2" override_package_urn="urn:adsk.eagle:footprint:27669532/1" value="12 pF"/>
 <part name="C6" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27725540/2" override_package_urn="urn:adsk.eagle:footprint:27725541/1" value="300p"/>
 <part name="C5" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669533/2" override_package_urn="urn:adsk.eagle:footprint:27669534/1" value="300p"/>
-<part name="C2" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0805" override_package3d_urn="urn:adsk.eagle:package:27670968/2" override_package_urn="urn:adsk.eagle:footprint:27670970/1" value="10u"/>
-<part name="L1" library="LinnesLab-Passives" deviceset="INDUCTOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669957/2" override_package_urn="urn:adsk.eagle:footprint:27669958/1" value="10u"/>
+<part name="C2" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0805" override_package3d_urn="urn:adsk.eagle:package:27670968/2" override_package_urn="urn:adsk.eagle:footprint:27670970/1" value="10uF"/>
+<part name="L1" library="LinnesLab-Passives" deviceset="INDUCTOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669957/2" override_package_urn="urn:adsk.eagle:footprint:27669958/1" value="10uH"/>
 <part name="SUPPLY3" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="GND21" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND23" library="LinnesLab-Symbols" deviceset="GND" device=""/>
@@ -6880,7 +6880,7 @@ A light-sensitive transistor.</description>
 <part name="SW1" library="LinnesLab-Switches" deviceset="SPST-PTS830GG140-COPY" device=".1-3" package3d_urn="urn:adsk.eagle:package:18580190/2" override_package3d_urn="urn:adsk.eagle:package:27725742/2" override_package_urn="urn:adsk.eagle:footprint:27725743/1"/>
 <part name="GND30" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SW2" library="LinnesLab-Switches" deviceset="SPST-PTS830GG140-COPY" device=".1-3" package3d_urn="urn:adsk.eagle:package:18580190/2" override_package3d_urn="urn:adsk.eagle:package:27725693/2" override_package_urn="urn:adsk.eagle:footprint:27725694/1"/>
-<part name="U1" library="LinnesLab-Microcontrollers" deviceset="NRF52832_MODULE_MDBT42" device="" override_package3d_urn="urn:adsk.eagle:package:18593121/2" override_package_urn="urn:adsk.eagle:footprint:18593122/1">
+<part name="U1" library="LinnesLab-Microcontrollers" deviceset="NRF52832_MODULE_MDBT42" device="" override_package3d_urn="urn:adsk.eagle:package:27726002/2" override_package_urn="urn:adsk.eagle:footprint:27726003/1">
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
 <part name="LED1" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2" override_package3d_urn="urn:adsk.eagle:package:27725520/2" override_package_urn="urn:adsk.eagle:footprint:27725521/1" value="RED"/>
@@ -6962,7 +6962,7 @@ A light-sensitive transistor.</description>
 <part name="GND43" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="U4" library="LinnesLab-Sensors" deviceset="PHOTOTRANSISTOR" device="" package3d_urn="urn:adsk.eagle:package:17881375/3"/>
 <part name="R17" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27670049/2" override_package_urn="urn:adsk.eagle:footprint:27670050/1" value="10k"/>
-<part name="C21" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669811/2" override_package_urn="urn:adsk.eagle:footprint:27669812/1" value="2.2u"/>
+<part name="C21" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669811/2" override_package_urn="urn:adsk.eagle:footprint:27669812/1" value="2.2uF"/>
 <part name="GND3" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="J3" library="LinnesLab-Connectors" deviceset="CONN_04" device="1.27MM" override_package3d_urn="urn:adsk.eagle:package:27725590/2" override_package_urn="urn:adsk.eagle:footprint:27725591/1"/>
@@ -6983,7 +6983,7 @@ A light-sensitive transistor.</description>
 <part name="R19" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27670052/2" override_package_urn="urn:adsk.eagle:footprint:27670053/1" value="10k"/>
 <part name="GND50" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="D4" library="LinnesLab-DiscreteSemi" deviceset="SCHOTTKY" device="-USC" override_package3d_urn="urn:adsk.eagle:package:27725570/2" override_package_urn="urn:adsk.eagle:footprint:27725571/1"/>
-<part name="C23" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669817/2" override_package_urn="urn:adsk.eagle:footprint:27669818/1" value="10p"/>
+<part name="C23" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669817/2" override_package_urn="urn:adsk.eagle:footprint:27669818/1" value="10pF"/>
 <part name="SUPPLY25" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="C24" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669819/2" override_package_urn="urn:adsk.eagle:footprint:27669820/1" value="1u"/>
 <part name="GND51" library="LinnesLab-Symbols" deviceset="GND" device=""/>
@@ -6991,7 +6991,7 @@ A light-sensitive transistor.</description>
 <part name="SUPPLY28" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="C25" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" override_package3d_urn="urn:adsk.eagle:package:27669822/2" override_package_urn="urn:adsk.eagle:footprint:27669823/1" value="100n"/>
 <part name="GND52" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="J4" library="LinnesLab-Connectors" deviceset="CONN_03" device=".50MIL" override_package3d_urn="urn:adsk.eagle:package:27725632/2" override_package_urn="urn:adsk.eagle:footprint:27725633/1"/>
+<part name="J4" library="LinnesLab-Connectors" deviceset="CONN_03" device=".50MIL" override_package3d_urn="urn:adsk.eagle:package:27725632/3" override_package_urn="urn:adsk.eagle:footprint:27725633/1"/>
 </parts>
 <sheets>
 <sheet>

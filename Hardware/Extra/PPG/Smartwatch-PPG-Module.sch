@@ -1323,8 +1323,8 @@ Description:
 </class>
 </classes>
 <parts>
-<part name="PD" library="CalvEngIO-Sensors" deviceset="PHOTODIODE" device=".-SMD.GULLWING" package3d_urn="urn:adsk.eagle:package:15402317/2"/>
-<part name="C1" library="CalvEngIO-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="2.2u"/>
+<part name="PD" library="CalvEngIO-Sensors" deviceset="PHOTODIODE" device=".-SMD.GULLWING" package3d_urn="urn:adsk.eagle:package:15402317/2" override_package3d_urn="urn:adsk.eagle:package:27726729/2" override_package_urn="urn:adsk.eagle:footprint:27726730/1"/>
+<part name="C1" library="CalvEngIO-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" override_package3d_urn="urn:adsk.eagle:package:27726715/2" override_package_urn="urn:adsk.eagle:footprint:27726716/1" value="2.2u"/>
 <part name="GND14" library="CalvEngIO-Symbols" deviceset="GND" device=""/>
 <part name="GND23" library="CalvEngIO-Symbols" deviceset="GND" device=""/>
 <part name="U$11" library="CalvEngIO-Symbols" deviceset="V+" device=""/>
@@ -1332,7 +1332,7 @@ Description:
 <part name="U$2" library="CalvEngIO-Symbols" deviceset="V+" device=""/>
 <part name="GND1" library="CalvEngIO-Symbols" deviceset="GND" device=""/>
 <part name="U$3" library="CalvEngIO-Logos" deviceset="LINNES.LAB" device=".LOGO"/>
-<part name="LED1" library="LinnesLab-LED" deviceset="LED" device="0805"/>
+<part name="LED1" library="LinnesLab-LED" deviceset="LED" device="0805" override_package3d_urn="urn:adsk.eagle:package:27726717/2" override_package_urn="urn:adsk.eagle:footprint:27726718/1"/>
 <part name="U$4" library="CalvEngIO-Symbols" deviceset="V+" device=""/>
 </parts>
 <sheets>
@@ -1468,6 +1468,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>

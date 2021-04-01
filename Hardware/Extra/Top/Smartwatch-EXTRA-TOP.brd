@@ -162,7 +162,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6cHVyZHVlMjIyNA" projecturn="a.YnVzaW5lc3M6cHVyZHVlMjIyNCMyMDIxMDMyNzM5NzIwMDMyNg" f3durn="urn:adsk.wipprod:dm.lineage:XFHoWaPkQBmQ3nj1vLUEBw" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="3a5e7feb-a195-42dd-a08a-2611ee65cf8f" lastsyncedrevisionid="3a5e7feb-a195-42dd-a08a-2611ee65cf8f" lastboardhashguid="5192e39e-b93b-5078-4a78-5802325fcc51" lastpushedtime="2021-03-27T21:16:43Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6cHVyZHVlMjIyNA" projecturn="a.YnVzaW5lc3M6cHVyZHVlMjIyNCMyMDIxMDMyNzM5NzIwMDMyNg" f3durn="urn:adsk.wipprod:dm.lineage:XFHoWaPkQBmQ3nj1vLUEBw" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="7c4fc147-7280-49f2-a8ff-9dc003aacbf2" lastsyncedrevisionid="7c4fc147-7280-49f2-a8ff-9dc003aacbf2" lastboardhashguid="22cbd7ec-4fab-d891-ac62-eccdf797752f" lastpushedtime="2021-03-27T21:42:09Z" linktopcb3d="true"/>
 <fusionteam huburn="a.YnVzaW5lc3M6cHVyZHVlMjIyNA" projecturn="a.YnVzaW5lc3M6cHVyZHVlMjIyNCNEMjAyMTAyMDYzODAwMDMxMjY" folderUrn="urn:adsk.wipprod:fs.folder:co.YdOB1KMQSXe9hTG6FhLD9w" urn="urn:adsk.wipprod:dm.lineage:W-tqdEdMRpy7A-WNC3jHJw"  versionUrn="urn:adsk.wipprod:fs.file:vf.W-tqdEdMRpy7A-WNC3jHJw?version=1" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="9cd7a9d6-e81f-3132-e714-1a28a52f2c30"/>
 <plain>
 <wire x1="0" y1="0" x2="38" y2="0" width="0" layer="20"/>
@@ -1167,11 +1167,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="30.651678125" y="10.3444375" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="30.310865625" y="13.513784375" size="0.7112" layer="27" rot="R270"/>
 </element>
-<element name="C2" library="LinnesLab-Passives" package="C0805" override_package3d_urn="urn:adsk.eagle:package:27670968/2" override_package_urn="urn:adsk.eagle:footprint:27670970/1" value="10u" x="2.31901875" y="32.16148125" smashed="yes" rot="R90" grouprefs="MICROCONTROLLER">
+<element name="C2" library="LinnesLab-Passives" package="C0805" override_package3d_urn="urn:adsk.eagle:package:27670968/2" override_package_urn="urn:adsk.eagle:footprint:27670970/1" value="10uF" x="2.31901875" y="32.16148125" smashed="yes" rot="R90" grouprefs="MICROCONTROLLER">
 <attribute name="NAME" x="3.279140625" y="35.227259375" size="0.6096" layer="25" rot="R180"/>
 <attribute name="VALUE" x="4.22401875" y="30.89148125" size="0.7112" layer="27" rot="R90"/>
 </element>
-<element name="L1" library="LinnesLab-Passives" package="L0603" override_package3d_urn="urn:adsk.eagle:package:27669957/2" override_package_urn="urn:adsk.eagle:footprint:27669958/1" override_locally_modified="yes" value="10u" x="20.0353" y="25.997940625" smashed="yes" rot="R90" grouprefs="MICROCONTROLLER">
+<element name="L1" library="LinnesLab-Passives" package="L0603" override_package3d_urn="urn:adsk.eagle:package:27669957/2" override_package_urn="urn:adsk.eagle:footprint:27669958/1" override_locally_modified="yes" value="10uH" x="20.0353" y="25.997940625" smashed="yes" rot="R90" grouprefs="MICROCONTROLLER">
 <attribute name="NAME" x="20.907721875" y="26.149021875" size="0.6096" layer="25" rot="R270"/>
 <attribute name="VALUE" x="21.6863" y="25.362940625" size="0.7112" layer="27" rot="R90"/>
 </element>
@@ -1214,7 +1214,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="32.913040625" y="18.00128125" size="0.6096" layer="25" rot="R270"/>
 <attribute name="VALUE" x="32.697140625" y="18.93091875" size="0.7112" layer="27" rot="R270"/>
 </element>
-<element name="U1" library="LinnesLab-Microcontrollers" package="BLE_MODULE_RAYTAC_MDBT42" override_package3d_urn="urn:adsk.eagle:package:18593121/2" override_package_urn="urn:adsk.eagle:footprint:18593122/1" override_locally_modified="yes" value="NRF52832_MODULE_MDBT42" x="27.406" y="29.597" smashed="yes" grouprefs="MICROCONTROLLER">
+<element name="U1" library="LinnesLab-Microcontrollers" package="BLE_MODULE_RAYTAC_MDBT42" override_package3d_urn="urn:adsk.eagle:package:27726002/2" override_package_urn="urn:adsk.eagle:footprint:27726003/1" override_locally_modified="yes" value="NRF52832_MODULE_MDBT42" x="27.406" y="29.597" smashed="yes" grouprefs="MICROCONTROLLER">
 <attribute name="NAME" x="20.76961875" y="34.8617625" size="0.6096" layer="25" ratio="18"/>
 <attribute name="SPICEPREFIX" value="X" x="27.406" y="29.597" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="22.64" y="20.145" size="0.7112" layer="27" ratio="10"/>
@@ -1387,13 +1387,13 @@ design rules under a new name.</description>
 <attribute name="NAME" x="22.946996875" y="7.763178125" size="0.6096" layer="25" rot="R180"/>
 <attribute name="VALUE" x="24.100459375" y="4.906640625" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C21" library="LinnesLab-Passives" package="C0603" override_package3d_urn="urn:adsk.eagle:package:27669811/2" override_package_urn="urn:adsk.eagle:footprint:27669812/1" value="2.2u" x="20.6638375" y="5.526403125" smashed="yes" rot="R270">
+<element name="C21" library="LinnesLab-Passives" package="C0603" override_package3d_urn="urn:adsk.eagle:package:27669811/2" override_package_urn="urn:adsk.eagle:footprint:27669812/1" value="2.2uF" x="20.6638375" y="5.526403125" smashed="yes" rot="R270">
 <attribute name="NAME" x="21.40648125" y="7.850203125" size="0.6096" layer="25" rot="R180"/>
 <attribute name="VALUE" x="18.7588375" y="6.161403125" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="J3" library="LinnesLab-Connectors" package="1X04_1.27MM" override_package3d_urn="urn:adsk.eagle:package:27725590/2" override_package_urn="urn:adsk.eagle:footprint:27725591/1" value="" x="36" y="2" smashed="yes" rot="R180">
-<attribute name="NAME" x="36.365759375" y="0.851921875" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
-<attribute name="VALUE" x="36.381" y="3.651" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
+<element name="J3" library="LinnesLab-Connectors" package="1X04_1.27MM" override_package3d_urn="urn:adsk.eagle:package:27725590/2" override_package_urn="urn:adsk.eagle:footprint:27725591/1" value="" x="36" y="2" smashed="yes" rot="R90">
+<attribute name="NAME" x="34.851921875" y="1.634240625" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="VALUE" x="37.651" y="1.619" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="C22" library="LinnesLab-Passives" package="C0603" override_package3d_urn="urn:adsk.eagle:package:27669815/2" override_package_urn="urn:adsk.eagle:footprint:27669816/1" value="100n" x="13.0403875" y="26.00068125" smashed="yes" rot="R90">
 <attribute name="NAME" x="13.844296875" y="28.295628125" size="0.6096" layer="25" rot="R180"/>
@@ -1420,7 +1420,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="30.12166875" y="10.507821875" size="0.6096" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="31.673959375" y="7.8189875" size="0.635" layer="28" rot="MR0"/>
 </element>
-<element name="C23" library="LinnesLab-Passives" package="C0603" override_package3d_urn="urn:adsk.eagle:package:27669817/2" override_package_urn="urn:adsk.eagle:footprint:27669818/1" value="10p" x="30.614775" y="6.743328125" smashed="yes" rot="MR0">
+<element name="C23" library="LinnesLab-Passives" package="C0603" override_package3d_urn="urn:adsk.eagle:package:27669817/2" override_package_urn="urn:adsk.eagle:footprint:27669818/1" value="10pF" x="30.614775" y="6.743328125" smashed="yes" rot="MR0">
 <attribute name="NAME" x="31.033875" y="7.58406875" size="0.6096" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="31.249775" y="4.838328125" size="1.27" layer="28" rot="MR0"/>
 </element>
@@ -1433,7 +1433,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="35.295684375" y="12.862928125" size="0.6096" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="32.755684375" y="14.470746875" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="J4" library="LinnesLab-Connectors" package="1X03_1.27MM" override_package3d_urn="urn:adsk.eagle:package:27725632/2" override_package_urn="urn:adsk.eagle:footprint:27725633/1" value="" x="13.89" y="33" smashed="yes">
+<element name="J4" library="LinnesLab-Connectors" package="1X03_1.27MM" override_package3d_urn="urn:adsk.eagle:package:27725632/3" override_package_urn="urn:adsk.eagle:footprint:27725633/1" value="" x="13.89" y="33" smashed="yes">
 <attribute name="NAME" x="13.509" y="34.016" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="13.509" y="31.349" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
@@ -1960,7 +1960,11 @@ design rules under a new name.</description>
 <wire x1="29.29128125" y1="5.0063375" x2="29.29128125" y2="4.734559375" width="0.1524" layer="1"/>
 <via x="29.29128125" y="4.734559375" extent="1-16" drill="0.35"/>
 <wire x1="29.29128125" y1="4.734559375" x2="30.19" y2="3.835840625" width="0.1524" layer="16"/>
-<wire x1="30.19" y1="3.835840625" x2="32.19" y2="2" width="0.1524" layer="16"/>
+<wire x1="30.19" y1="3.835840625" x2="34.0186625" y2="3.835840625" width="0.1524" layer="16"/>
+<wire x1="34.0186625" y1="3.835840625" x2="34.18078125" y2="3.997959375" width="0.1524" layer="16"/>
+<via x="34.18078125" y="3.997959375" extent="1-16" drill="0.35"/>
+<wire x1="34.18078125" y1="3.997959375" x2="35.992821875" y2="5.81" width="0.1524" layer="1"/>
+<wire x1="35.992821875" y1="5.81" x2="36" y2="5.81" width="0.1524" layer="1"/>
 </signal>
 <signal name="SCL">
 <contactref element="U1" pad="3"/>
@@ -1997,8 +2001,12 @@ design rules under a new name.</description>
 <wire x1="20.876525" y1="9.988653125" x2="23.751915625" y2="7.1132625" width="0.1524" layer="16"/>
 <wire x1="25.09001875" y1="5.82421875" x2="30.195521875" y2="5.82421875" width="0.1524" layer="16"/>
 <wire x1="30.195521875" y1="5.82421875" x2="31.46" y2="4.559740625" width="0.1524" layer="16"/>
-<wire x1="31.46" y1="4.559740625" x2="33.46" y2="2" width="0.1524" layer="16"/>
 <wire x1="23.800975" y1="7.1132625" x2="25.09001875" y2="5.82421875" width="0.1524" layer="16"/>
+<wire x1="33.92943125" y1="4.6047625" x2="34.43213125" y2="4.6047625" width="0.1524" layer="16"/>
+<wire x1="34.43213125" y1="4.6047625" x2="34.49689375" y2="4.54" width="0.1524" layer="16"/>
+<wire x1="34.49689375" y1="4.54" x2="36" y2="4.54" width="0.1524" layer="16"/>
+<wire x1="31.46" y1="4.559740625" x2="33.884409375" y2="4.559740625" width="0.1524" layer="16"/>
+<wire x1="33.884409375" y1="4.559740625" x2="33.92943125" y2="4.6047625" width="0.1524" layer="16"/>
 </signal>
 <signal name="SCK">
 <contactref element="U1" pad="26"/>

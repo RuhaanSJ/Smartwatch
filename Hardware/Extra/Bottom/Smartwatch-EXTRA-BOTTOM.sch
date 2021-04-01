@@ -3429,45 +3429,71 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 </library>
 <library name="Encoder">
 <packages>
-<package name="ENCODER">
-<pad name="GND" x="0" y="0" drill="1.2"/>
-<pad name="B" x="0" y="2.5" drill="1.2"/>
-<pad name="A" x="0" y="-2.5" drill="1.2"/>
-<pad name="3.3V" x="-6.25" y="-2.5" drill="1.2"/>
-<pad name="MOM.BUTTON" x="-6.25" y="2.5" drill="1.2"/>
-<wire x1="5" y1="4.85" x2="5" y2="-4.85" width="0.127" layer="21"/>
-<text x="7" y="-6" size="1.27" layer="51" rot="R90">Mounting Surface</text>
-<wire x1="-8.3" y1="4.85" x2="5" y2="4.85" width="0.127" layer="21"/>
-<wire x1="-8.3" y1="-4.85" x2="5" y2="-4.85" width="0.127" layer="21"/>
-<wire x1="-8.3" y1="4.85" x2="-8.3" y2="-4.85" width="0.127" layer="21"/>
+<package name="EVQVU">
+<pad name="P$1" x="0" y="0" drill="1"/>
+<pad name="P$2" x="2.5" y="0" drill="1"/>
+<pad name="P$3" x="-2.5" y="0" drill="1"/>
+<rectangle x1="2.9" y1="-2.7" x2="4.7" y2="-1.3" layer="21"/>
+<rectangle x1="-4.7" y1="-2.7" x2="-2.9" y2="-1.3" layer="21"/>
+<rectangle x1="3.55" y1="-0.8" x2="3.85" y2="1.4" layer="21"/>
+<rectangle x1="-3.85" y1="-0.8" x2="-3.55" y2="1.4" layer="21"/>
+<rectangle x1="-2" y1="-3" x2="2" y2="-2.7" layer="21"/>
+<hole x="3.8" y="-2" drill="2.3"/>
+<hole x="-3.8" y="-2" drill="2.3"/>
+</package>
+<package name="SWITCH">
+<smd name="P$1" x="0" y="-1.395" dx="5.33" dy="2.79" layer="1"/>
+<smd name="P$2" x="3.65" y="-5.445" dx="4.19" dy="1.46" layer="1" rot="R90"/>
+<smd name="P$3" x="1.8725" y="-5.99" dx="3.76" dy="1.205" layer="1" rot="R90"/>
+<smd name="P$4" x="-1.8725" y="-5.99" dx="3.76" dy="1.205" layer="1" rot="R90"/>
+<smd name="P$5" x="-3.65" y="-5.445" dx="4.19" dy="1.46" layer="1" rot="R90"/>
 </package>
 </packages>
 <symbols>
-<symbol name="ENCODER">
-<wire x1="-6.35" y1="6.35" x2="6.35" y2="6.35" width="0.254" layer="94"/>
-<wire x1="6.35" y1="6.35" x2="6.35" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="6.35" y1="-6.35" x2="-6.35" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="-6.35" y1="-6.35" x2="-6.35" y2="6.35" width="0.254" layer="94"/>
-<pin name="GND" x="11.43" y="0" length="middle" rot="R180"/>
-<pin name="B" x="11.43" y="3.175" length="middle" swaplevel="1" rot="R180"/>
-<pin name="A" x="11.43" y="-3.175" length="middle" swaplevel="2" rot="R180"/>
-<pin name="MOM.BUTTON" x="-11.43" y="3.175" length="middle" swaplevel="4"/>
-<pin name="3.3V" x="-11.43" y="-3.175" length="middle" swaplevel="3"/>
+<symbol name="PANASONIC.ENCODER">
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="B" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="GND" x="10.16" y="0" length="middle" swaplevel="1" rot="R180"/>
+<pin name="A" x="10.16" y="-2.54" length="middle" swaplevel="2" rot="R180"/>
+</symbol>
+<symbol name="SWITCH">
+<pin name="P$1" x="-5.08" y="0" length="middle"/>
+<pin name="P$2" x="12.7" y="0" length="middle" swaplevel="1" rot="R180"/>
+<wire x1="0" y1="0" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<circle x="7.62" y="0" radius="0.61065625" width="0.254" layer="94"/>
+<circle x="7.6708" y="7.6454" radius="0.71886875" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PEC09-2220F-S0012">
+<deviceset name="EVQVU">
 <gates>
-<gate name="G$1" symbol="ENCODER" x="0" y="0"/>
+<gate name="G$1" symbol="PANASONIC.ENCODER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="ENCODER">
+<device name="" package="EVQVU">
 <connects>
-<connect gate="G$1" pin="3.3V" pad="3.3V"/>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="MOM.BUTTON" pad="MOM.BUTTON"/>
+<connect gate="G$1" pin="A" pad="P$2"/>
+<connect gate="G$1" pin="B" pad="P$3"/>
+<connect gate="G$1" pin="GND" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SWITCH">
+<gates>
+<gate name="G$1" symbol="SWITCH" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SWITCH">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$2 P$3"/>
+<connect gate="G$1" pin="P$2" pad="P$4 P$5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3488,94 +3514,95 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 </classes>
 <parts>
 <part name="U4" library="LinnesLab-Connectors" deviceset="PPG.MODULE.2" device=""/>
-<part name="C3" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
+<part name="C3" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" override_package3d_urn="urn:adsk.eagle:package:27726310/2" override_package_urn="urn:adsk.eagle:footprint:27726311/1" value="100n"/>
 <part name="GND4" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND13" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="C4" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
+<part name="C4" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" override_package3d_urn="urn:adsk.eagle:package:27726313/2" override_package_urn="urn:adsk.eagle:footprint:27726315/1" value="100n"/>
 <part name="GND14" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="U3" library="LinnesLab-DigitalIC" deviceset="AD5171" device="" package3d_urn="urn:adsk.eagle:package:17879439/2"/>
-<part name="R3" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="220k"/>
-<part name="R4" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10M"/>
-<part name="C5" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="2.2n"/>
-<part name="C6" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="2.2u"/>
-<part name="C7" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="2.2u"/>
-<part name="R5" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="220k"/>
+<part name="U3" library="LinnesLab-DigitalIC" deviceset="AD5171" device="" package3d_urn="urn:adsk.eagle:package:17879439/2" override_package3d_urn="urn:adsk.eagle:package:27726204/2" override_package_urn="urn:adsk.eagle:footprint:27726205/1"/>
+<part name="R3" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" override_package3d_urn="urn:adsk.eagle:package:27726377/2" override_package_urn="urn:adsk.eagle:footprint:27726378/1" value="220k"/>
+<part name="R4" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" override_package3d_urn="urn:adsk.eagle:package:27726379/2" override_package_urn="urn:adsk.eagle:footprint:27726381/1" value="10M"/>
+<part name="C5" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" override_package3d_urn="urn:adsk.eagle:package:27726316/2" override_package_urn="urn:adsk.eagle:footprint:27726317/1" value="2.2n"/>
+<part name="C6" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" override_package3d_urn="urn:adsk.eagle:package:27726320/2" override_package_urn="urn:adsk.eagle:footprint:27726321/1" value="2.2u"/>
+<part name="C7" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" override_package3d_urn="urn:adsk.eagle:package:27726322/2" override_package_urn="urn:adsk.eagle:footprint:27726323/1" value="2.2u"/>
+<part name="R5" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" override_package3d_urn="urn:adsk.eagle:package:27726383/2" override_package_urn="urn:adsk.eagle:footprint:27726384/1" value="220k"/>
 <part name="GND17" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="R6" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2"/>
+<part name="R6" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" override_package3d_urn="urn:adsk.eagle:package:27726393/2" override_package_urn="urn:adsk.eagle:footprint:27726394/1"/>
 <part name="GND18" library="CalvEngIO-Symbols" deviceset="GND" device=""/>
-<part name="OP3" library="LinnesLab-AnalogIC" deviceset="OP-QUAD" device="-SO14" package3d_urn="urn:adsk.eagle:package:17879189/2"/>
+<part name="OP3" library="LinnesLab-AnalogIC" deviceset="OP-QUAD" device="-SO14" package3d_urn="urn:adsk.eagle:package:17879189/2" override_package3d_urn="urn:adsk.eagle:package:27726434/2" override_package_urn="urn:adsk.eagle:footprint:27726435/1"/>
 <part name="SUPPLY4" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY5" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="GND19" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="R7" library="LinnesLab-Passives" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:15661898/2" value="10k"/>
-<part name="R8" library="LinnesLab-Passives" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:15661898/2" value="10k"/>
+<part name="R7" library="LinnesLab-Passives" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:15661898/2" override_package3d_urn="urn:adsk.eagle:package:27726395/2" override_package_urn="urn:adsk.eagle:footprint:27726396/1" value="10k"/>
+<part name="R8" library="LinnesLab-Passives" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:15661898/2" override_package3d_urn="urn:adsk.eagle:package:27726399/2" override_package_urn="urn:adsk.eagle:footprint:27726400/1" value="10k"/>
 <part name="GND20" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="Q1" library="LinnesLab-DiscreteSemi" deviceset="NPN" device="-GENERIC" package3d_urn="urn:adsk.eagle:package:15662047/2"/>
+<part name="Q1" library="LinnesLab-DiscreteSemi" deviceset="NPN" device="-GENERIC" package3d_urn="urn:adsk.eagle:package:15662047/2" override_package3d_urn="urn:adsk.eagle:package:27726468/2" override_package_urn="urn:adsk.eagle:footprint:27726469/1"/>
 <part name="SUPPLY9" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="C8" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
+<part name="C8" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" override_package3d_urn="urn:adsk.eagle:package:27726324/2" override_package_urn="urn:adsk.eagle:footprint:27726325/1" value="100n"/>
 <part name="GND21" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="C9" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
+<part name="C9" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" override_package3d_urn="urn:adsk.eagle:package:27726326/2" override_package_urn="urn:adsk.eagle:footprint:27726327/1" value="100n"/>
 <part name="GND22" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="U1" library="LinnesLab-DigitalIC" deviceset="AD5242" device="-SO16" package3d_urn="urn:adsk.eagle:package:16423/2"/>
+<part name="U1" library="LinnesLab-DigitalIC" deviceset="AD5242" device="-SO16" package3d_urn="urn:adsk.eagle:package:16423/2" override_package3d_urn="urn:adsk.eagle:package:27726284/2" override_package_urn="urn:adsk.eagle:footprint:16172/1"/>
 <part name="SUPPLY17" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="GND23" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="R9" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="220k"/>
-<part name="R10" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="1M"/>
-<part name="R11" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="220k"/>
-<part name="R12" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10M"/>
-<part name="C10" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="2.2n"/>
-<part name="R13" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="1M"/>
+<part name="R9" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" override_package3d_urn="urn:adsk.eagle:package:27726403/2" override_package_urn="urn:adsk.eagle:footprint:27726404/1" value="220k"/>
+<part name="R10" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" override_package3d_urn="urn:adsk.eagle:package:27726405/2" override_package_urn="urn:adsk.eagle:footprint:27726406/1" value="1M"/>
+<part name="R11" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" override_package3d_urn="urn:adsk.eagle:package:27726407/2" override_package_urn="urn:adsk.eagle:footprint:27726408/1" value="220k"/>
+<part name="R12" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" override_package3d_urn="urn:adsk.eagle:package:27726409/2" override_package_urn="urn:adsk.eagle:footprint:27726410/1" value="10M"/>
+<part name="C10" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" override_package3d_urn="urn:adsk.eagle:package:27726329/2" override_package_urn="urn:adsk.eagle:footprint:27726335/1" value="2.2n"/>
+<part name="R13" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" override_package3d_urn="urn:adsk.eagle:package:27726411/2" override_package_urn="urn:adsk.eagle:footprint:27726412/1" value="1M"/>
 <part name="GND24" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND25" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY19" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="OP4" library="LinnesLab-AnalogIC" deviceset="OP-SINGLE" device="OT"/>
-<part name="C11" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="22u"/>
-<part name="R14" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k"/>
-<part name="C12" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="22n"/>
+<part name="OP4" library="LinnesLab-AnalogIC" deviceset="OP-SINGLE" device="OT" override_package3d_urn="urn:adsk.eagle:package:27726485/2" override_package_urn="urn:adsk.eagle:footprint:27726486/1"/>
+<part name="C11" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" override_package3d_urn="urn:adsk.eagle:package:27726336/2" override_package_urn="urn:adsk.eagle:footprint:27726337/1" value="22u"/>
+<part name="R14" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" override_package3d_urn="urn:adsk.eagle:package:27726414/2" override_package_urn="urn:adsk.eagle:footprint:27726415/1" value="10k"/>
+<part name="C12" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" override_package3d_urn="urn:adsk.eagle:package:27726344/2" override_package_urn="urn:adsk.eagle:footprint:27726345/1" value="22n"/>
 <part name="GND26" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY20" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="C13" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
+<part name="C13" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" override_package3d_urn="urn:adsk.eagle:package:27726346/2" override_package_urn="urn:adsk.eagle:footprint:27726347/1" value="100n"/>
 <part name="GND3" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND5" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="C2" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="1u"/>
+<part name="C2" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" override_package3d_urn="urn:adsk.eagle:package:27726308/2" override_package_urn="urn:adsk.eagle:footprint:27726309/1" value="1u"/>
 <part name="SUPPLY10" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="R1" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k"/>
-<part name="R2" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k"/>
+<part name="R1" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" override_package3d_urn="urn:adsk.eagle:package:27726372/2" override_package_urn="urn:adsk.eagle:footprint:27726373/1" value="10k"/>
+<part name="R2" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" override_package3d_urn="urn:adsk.eagle:package:27726374/2" override_package_urn="urn:adsk.eagle:footprint:27726375/1" value="10k"/>
 <part name="SUPPLY11" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY12" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="XTAL1" library="LinnesLab-Clocks" deviceset="CRYSTAL" device="ECS-.327-12.5-12-C-TR" package3d_urn="urn:adsk.eagle:package:18579459/2" value="32.7680kHz">
 <attribute name="FREQ" value="32.7680KHZ"/>
 </part>
-<part name="U2" library="LinnesLab-Clocks" deviceset="PCF8523" device="" package3d_urn="urn:adsk.eagle:package:18599600/2">
+<part name="U2" library="LinnesLab-Clocks" deviceset="PCF8523" device="" package3d_urn="urn:adsk.eagle:package:18599600/2" override_package3d_urn="urn:adsk.eagle:package:27726234/2" override_package_urn="urn:adsk.eagle:footprint:27726235/1">
 <attribute name="DIGIKEY" value="568-5306-1-ND"/>
 <attribute name="I2C_ADDRESS" value="0x68h"/>
 <attribute name="MFN" value="PCF8523T/1,118"/>
 <attribute name="MFN_MANUFACTURER" value="NXP USA Inc."/>
 </part>
-<part name="J1" library="LinnesLab-Connectors" deviceset="CONN_07" device="-1.27MM"/>
+<part name="J1" library="LinnesLab-Connectors" deviceset="CONN_07" device="-1.27MM" override_package3d_urn="urn:adsk.eagle:package:27726354/2" override_package_urn="urn:adsk.eagle:footprint:27726355/1"/>
 <part name="IMU1" library="LinnesLab-Sensors" deviceset="LSM6DS3_CAST" device=""/>
 <part name="GND1" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="C1" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
+<part name="C1" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" override_package3d_urn="urn:adsk.eagle:package:27726306/2" override_package_urn="urn:adsk.eagle:footprint:27726307/1" value="100n"/>
 <part name="GND2" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="GND6" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="ENC1" library="Encoder" deviceset="PEC09-2220F-S0012" device=""/>
 <part name="GND7" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="R15" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k"/>
-<part name="R16" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k"/>
-<part name="R17" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k"/>
-<part name="R18" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k"/>
-<part name="C14" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="10 nF"/>
-<part name="C15" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="10 nF"/>
-<part name="J2" library="LinnesLab-Connectors" deviceset="CONN_03" device=".50MIL"/>
+<part name="R15" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" override_package3d_urn="urn:adsk.eagle:package:27726416/2" override_package_urn="urn:adsk.eagle:footprint:27726417/1" value="10k"/>
+<part name="R16" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" override_package3d_urn="urn:adsk.eagle:package:27726418/2" override_package_urn="urn:adsk.eagle:footprint:27726419/1" value="10k"/>
+<part name="R17" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" override_package3d_urn="urn:adsk.eagle:package:27726420/2" override_package_urn="urn:adsk.eagle:footprint:27726421/1" value="10k"/>
+<part name="R18" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" override_package3d_urn="urn:adsk.eagle:package:27726422/2" override_package_urn="urn:adsk.eagle:footprint:27726424/1" value="10k"/>
+<part name="C14" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" override_package3d_urn="urn:adsk.eagle:package:27726348/2" override_package_urn="urn:adsk.eagle:footprint:27726350/1" value="10 nF"/>
+<part name="C15" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" override_package3d_urn="urn:adsk.eagle:package:27726352/2" override_package_urn="urn:adsk.eagle:footprint:27726353/1" value="10 nF"/>
+<part name="J2" library="LinnesLab-Connectors" deviceset="CONN_03" device=".50MIL" override_package3d_urn="urn:adsk.eagle:package:27726360/2" override_package_urn="urn:adsk.eagle:footprint:27726361/1"/>
+<part name="ENC1" library="Encoder" deviceset="EVQVU" device="" override_package3d_urn="urn:adsk.eagle:package:27777692/4" override_package_urn="urn:adsk.eagle:footprint:27777693/2" override_locally_modified="yes"/>
+<part name="B1" library="Encoder" deviceset="SWITCH" device="" override_package3d_urn="urn:adsk.eagle:package:27777666/2" override_package_urn="urn:adsk.eagle:footprint:27777667/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -3898,7 +3925,6 @@ Bypass Capacitors</text>
 <instance part="SUPPLY1" gate="G$1" x="149.86" y="-25.4" smashed="yes" rot="R90">
 <attribute name="VALUE" x="147.066" y="-25.4" size="1.778" layer="96" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="ENC1" gate="G$1" x="-50.8" y="-96.52" smashed="yes"/>
 <instance part="GND7" gate="G$1" x="-22.86" y="-116.84" smashed="yes">
 <attribute name="VALUE" x="-22.86" y="-117.094" size="1.778" layer="96" align="top-center"/>
 </instance>
@@ -3933,6 +3959,8 @@ Bypass Capacitors</text>
 <attribute name="VALUE" x="195.326" y="-38.1" size="1.778" layer="96" font="vector" rot="R90"/>
 <attribute name="NAME" x="182.372" y="-38.1" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
+<instance part="ENC1" gate="G$1" x="-53.34" y="-96.52" smashed="yes"/>
+<instance part="B1" gate="G$1" x="-69.611240625" y="-94.996" smashed="yes" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -4053,8 +4081,8 @@ Bypass Capacitors</text>
 <wire x1="162.56" y1="-25.4" x2="172.72" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ENC1" gate="G$1" pin="GND"/>
-<wire x1="-39.37" y1="-96.52" x2="-22.86" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="-39.37" y1="-96.52" x2="-43.18" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="-96.52" x2="-22.86" y2="-96.52" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-96.52" x2="-22.86" y2="-114.3" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="G$1" pin="GND"/>
 <pinref part="C15" gate="G$1" pin="2"/>
@@ -4066,6 +4094,8 @@ Bypass Capacitors</text>
 <wire x1="-38.1" y1="-66.04" x2="-22.86" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-66.04" x2="-22.86" y2="-96.52" width="0.1524" layer="91"/>
 <junction x="-22.86" y="-96.52"/>
+<pinref part="ENC1" gate="G$1" pin="GND"/>
+<junction x="-43.18" y="-96.52"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -4179,16 +4209,16 @@ Bypass Capacitors</text>
 <wire x1="160.02" y1="-25.4" x2="149.86" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ENC1" gate="G$1" pin="3.3V"/>
-<wire x1="-62.23" y1="-99.695" x2="-78.74" y2="-99.695" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
 <pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="-78.74" y1="-99.695" x2="-78.74" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="-109.22" x2="-78.74" y2="-107.696" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="-107.696" x2="-78.74" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="-83.82" x2="-78.74" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="-83.82" x2="-55.88" y2="-83.82" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="-78.74" y1="-99.695" x2="-78.74" y2="-109.22" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="-109.22" x2="-55.88" y2="-109.22" width="0.1524" layer="91"/>
+<pinref part="B1" gate="G$1" pin="P$2"/>
+<wire x1="-69.611240625" y1="-107.696" x2="-78.74" y2="-107.696" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -4579,28 +4609,13 @@ Bypass Capacitors</text>
 <label x="106.68" y="5.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="ENC1" gate="G$1" pin="A"/>
-<pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="-39.37" y1="-99.695" x2="-39.37" y2="-109.22" width="0.1524" layer="91"/>
-<wire x1="-39.37" y1="-109.22" x2="-45.72" y2="-109.22" width="0.1524" layer="91"/>
-<wire x1="-39.37" y1="-99.695" x2="-35.56" y2="-99.695" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="-99.695" x2="-35.56" y2="-119.38" width="0.1524" layer="91"/>
-<junction x="-39.37" y="-99.695"/>
-<wire x1="-35.56" y1="-119.38" x2="-50.8" y2="-119.38" width="0.1524" layer="91"/>
-<pinref part="R18" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="ENC1" gate="G$1" pin="B"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="-39.37" y1="-93.345" x2="-39.37" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="-39.37" y1="-83.82" x2="-45.72" y2="-83.82" width="0.1524" layer="91"/>
-<wire x1="-39.37" y1="-93.345" x2="-39.37" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="-39.37" y1="-83.82" x2="-39.37" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="-39.37" y1="-73.66" x2="-48.26" y2="-73.66" width="0.1524" layer="91"/>
-<junction x="-39.37" y="-93.345"/>
 <pinref part="R17" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -4619,6 +4634,19 @@ Bypass Capacitors</text>
 <wire x1="190.5" y1="-27.94" x2="190.5" y2="-20.32" width="0.1524" layer="91"/>
 <label x="190.5" y="-20.32" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<wire x1="-35.56" y1="-119.38" x2="-50.8" y2="-119.38" width="0.1524" layer="91"/>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="-35.56" y1="-119.38" x2="-35.56" y2="-109.22" width="0.1524" layer="91"/>
+<pinref part="ENC1" gate="G$1" pin="A"/>
+<wire x1="-35.56" y1="-109.22" x2="-35.56" y2="-99.06" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="-99.06" x2="-43.18" y2="-99.06" width="0.1524" layer="91"/>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="-39.37" y1="-109.22" x2="-40.64" y2="-109.22" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="-109.22" x2="-45.72" y2="-109.22" width="0.1524" layer="91"/>
+<wire x1="-39.37" y1="-109.22" x2="-35.56" y2="-109.22" width="0.1524" layer="91"/>
+<junction x="-35.56" y="-109.22"/>
+</segment>
 </net>
 <net name="B.OUT" class="0">
 <segment>
@@ -4635,18 +4663,29 @@ Bypass Capacitors</text>
 <wire x1="185.42" y1="-27.94" x2="185.42" y2="-20.32" width="0.1524" layer="91"/>
 <label x="185.42" y="-20.32" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="ENC1" gate="G$1" pin="B"/>
+<wire x1="-43.18" y1="-93.98" x2="-39.3573" y2="-93.98" width="0.1524" layer="91"/>
+<wire x1="-39.3573" y1="-93.98" x2="-39.3573" y2="-92.8878" width="0.1524" layer="91"/>
+<label x="-39.011859375" y="-93.7514" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="MOM.BUTTON" class="0">
-<segment>
-<pinref part="ENC1" gate="G$1" pin="MOM.BUTTON"/>
-<wire x1="-62.23" y1="-93.345" x2="-73.66" y2="-93.345" width="0.1524" layer="91"/>
-<wire x1="-73.66" y1="-93.345" x2="-73.66" y2="-88.9" width="0.1524" layer="91"/>
-<label x="-73.66" y="-86.36" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="J2" gate="J$1" pin="2"/>
 <wire x1="187.96" y1="-27.94" x2="187.96" y2="-20.32" width="0.1524" layer="91"/>
 <label x="187.96" y="-10.16" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="B1" gate="G$1" pin="P$1"/>
+<wire x1="-69.611240625" y1="-89.916" x2="-69.611240625" y2="-87.9856" width="0.1524" layer="91"/>
+<wire x1="-69.611240625" y1="-87.9856" x2="-69.5833" y2="-87.9856" width="0.1524" layer="91"/>
+<label x="-69.656959375" y="-87.683340625" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<wire x1="-69.611240625" y1="-109.21491875" x2="-69.6214" y2="-109.21491875" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -4668,6 +4707,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
