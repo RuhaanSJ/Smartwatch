@@ -3492,8 +3492,8 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <devices>
 <device name="" package="SWITCH">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$2 P$3"/>
-<connect gate="G$1" pin="P$2" pad="P$4 P$5"/>
+<connect gate="G$1" pin="P$1" pad="P$4"/>
+<connect gate="G$1" pin="P$2" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4211,14 +4211,15 @@ Bypass Capacitors</text>
 <segment>
 <pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
 <pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="-78.74" y1="-109.22" x2="-78.74" y2="-107.696" width="0.1524" layer="91"/>
-<wire x1="-78.74" y1="-107.696" x2="-78.74" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="-109.22" x2="-78.74" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="-83.82" x2="-78.74" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="-83.82" x2="-55.88" y2="-83.82" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="-78.74" y1="-109.22" x2="-55.88" y2="-109.22" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="-109.22" x2="-69.611240625" y2="-109.22" width="0.1524" layer="91"/>
 <pinref part="B1" gate="G$1" pin="P$2"/>
-<wire x1="-69.611240625" y1="-107.696" x2="-78.74" y2="-107.696" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="-109.22" x2="-55.88" y2="-109.22" width="0.1524" layer="91"/>
+<wire x1="-69.611240625" y1="-107.696" x2="-69.611240625" y2="-109.22" width="0.1524" layer="91"/>
+<wire x1="-69.611240625" y1="-109.22" x2="-68.58" y2="-109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDA" class="0">
